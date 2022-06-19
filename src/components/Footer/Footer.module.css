@@ -76,7 +76,7 @@
 }
 
 .about{
-  margin-left:16rem;
+  margin-left:auto;
   width: 10rem;
 }
 
@@ -98,14 +98,14 @@
 }
 
 .help{
-  margin-left: 16rem;
+  margin-left: auto;
   width: 13rem;
 }
 
 .developers{
-  margin-left: 16rem;
+  margin-left: auto;
   width: 10rem;
-
+  margin-right:3rem;
 }
 
 .developers p{
