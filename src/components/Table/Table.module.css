@@ -1,0 +1,105 @@
+.table{
+  width: 111rem;
+  margin: auto;
+  margin-top: 5rem;
+  font-size: 1.5rem;
+  line-height: 2.1rem;
+  border: 1px solid #111826;
+  background:
+  linear-gradient(to  right, #7060CE ,rgba(112, 97, 207, 0), transparent 2px) 0 0,
+  linear-gradient(to right, #7060CE ,rgba(112, 97, 207, 0), transparent 2px) 0 100%,
+  linear-gradient(to left, #7060CE ,rgba(112, 97, 207, 0),  transparent 2px) 100% 0,
+  linear-gradient(to left, #7060CE ,rgba(112, 97, 207, 0),  transparent 2px) 100% 100%,
+  linear-gradient(to bottom, #7060CE ,rgba(112, 97, 207, 0),  transparent 2px) 0 0,
+  linear-gradient(to bottom, #7060CE ,rgba(112, 97, 207, 0),  transparent 2px) 100% 0,
+  linear-gradient(to top, #7060CE ,rgba(112, 97, 207, 0),  transparent 2px) 0 100%,
+  linear-gradient(to top, #7060CE ,rgba(112, 97, 207, 0),  transparent 2px) 100% 100%;
+background-repeat: no-repeat;
+background-size: 50px 50px;
+}
+.head{
+  display: flex;
+  height: 6rem;
+  align-items: center;
+}
+.head div{
+  color: #627EEA;
+}
+
+.row{
+  display: flex;
+  height: 6rem;
+  align-items: center;
+}
+
+.dark{
+  background:  rgba(255,255,255,0);
+ 
+}
+
+.light{
+  background:  rgba(255,255,255,0.03);
+}
+
+.hash{
+  width: 16rem;
+  height: 6rem;
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 2rem;
+  align-items: center;
+}
+
+.blue{
+  color: #0500FF;
+}
+
+.from{
+ width: 19.5rem;
+ height: 6rem;
+ display: flex;
+ justify-content: flex-start;
+ align-items: center;
+}
+
+.to{
+ width: 19.5rem;
+ height: 6rem;
+ display: flex;
+ justify-content: flex-start;
+ align-items: center;
+
+}
+
+.transaction{
+  width: 32rem;
+  height: 6rem;
+  display: flex;
+ justify-content: flex-start;
+  align-items: center;
+
+}
+.result{
+  width: 14rem;
+  height: 6rem;
+  display: flex;
+ justify-content: flex-start;
+  align-items: center;
+}
+
+.success{
+  color: #66BB6A;
+}
+
+.amount{
+  width: 10rem;
+  height: 6rem;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 2rem;
+}
+
+.cmcx{
+  color:#e1634a;
+}

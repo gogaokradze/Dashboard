@@ -1,0 +1,135 @@
+.add{
+  display: flex;
+  align-items: center;
+
+}
+.section{
+  width: 111rem;
+  margin: auto;
+}
+
+.AddText{
+  margin-right: 3.6rem;
+  margin-left: 0.8rem;
+  font-size: 1.3rem;
+  line-height: 2.2rem;
+}
+
+.search{
+  width: 25.5rem;
+  height: 3rem;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  border-radius: 0.4rem px;
+  padding-left: 1.6rem;
+  color:#FFFFFF;
+}
+
+.line{
+  display: flex;
+  width: 111rem;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 4.4rem;
+}
+
+.cmcx{
+  width:35rem;
+  height:17.2rem;
+  padding:2rem;
+  font-size: 1.3rem;
+  line-height: 1.8rem;
+  margin-top: 2.4rem;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(5, 0, 255, 0.5);
+  border-radius: 4px;
+}
+
+.row{
+  display: flex;
+  margin-top: 1.3rem;
+}
+
+.apprx{
+  color:#4d5057;
+}
+
+.title{
+  display: flex;
+  align-items: center;
+}
+
+.name{
+  color:#e0654b;
+}
+
+.grey{
+  font-size: 1.3rem;
+  line-height: 1.8rem;
+  color: #B2B5BA;
+}
+
+.row p:nth-child(2){
+  margin-left:3rem;
+}
+
+.button{
+  width: 8.5rem;
+  height: 3.2rem;
+  border: 1px solid #0500FF;
+  border-radius: 0.4rem;
+  background: none;
+  color:#FFFFFF;
+  cursor: pointer;
+}
+
+.buttons{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1.6rem;
+}
+
+.tokens{
+  display: flex;
+  padding-bottom: 4rem;
+
+}
+
+.overflow{
+  overflow-x:auto;
+  scrollbar-width: thin;
+  scrollbar-color: #627EEA rgba(255,255,255,0.1);
+  scrollbar-width: 2rem;
+}
+
+.addButton{
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.other{
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.message{
+  width: 16rem;
+  height: 5rem;
+  position: absolute;
+  background: #0A0F18;
+  border: 1px solid #161B24;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding-left: 1.6rem;
+  color:rgba(255, 255, 255, 0.7);
+  margin-left:17rem;
+  margin-top: 2rem;
+  z-index: 2;
+}
+

@@ -1,0 +1,61 @@
+.box{
+  width: 35rem;
+  max-width: 35rem;
+  height: 12.4rem;
+  font-size: 1.5rem;
+  line-height: 2.1rem;
+  padding:2rem;
+  margin: 2rem;
+  background: rgba(255, 255, 255, 0.04);
+  border-radius: 4px;
+}
+
+.title{
+  display: flex;
+  align-items: center;
+}
+
+.title p {
+  margin-left:0.8rem;
+}
+
+.cmcx{
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #FF8A65;
+  width: 5.116rem;
+  height: 2rem;
+  border: 1px solid #FF8A65;
+  border-radius: 10px;
+  margin-left:0.8rem;
+}
+
+.row{
+  font-size: 1.3rem;
+  line-height: 1.8rem;
+}
+.row span{
+  color: #B2B5BA;
+}
+
+.apprx{
+  color:#4d5057;
+}
+
+.name{
+  color:#e0654b;
+}
+.title img{
+  width:5rem;
+  height: 5rem;
+}
+
+.grey{
+  font-size: 1.3rem;
+  line-height: 1.8rem;
+  color: #B2B5BA;
+}

@@ -1,0 +1,100 @@
+.background{
+  width: 100%;
+  min-height:100% ;
+  position:fixed;
+  top:0px;
+  right: 0px;
+  left:0px;
+  bottom:0px;
+  z-index: 100;
+  background: rgba(0, 5, 15, 0.9);
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modalBox{
+   width: 41rem;
+   height: 41rem;
+   background: #0A0F18;
+  border: 1px solid #161B24;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+  border-radius: 4px;
+  padding: 2rem;
+}
+
+.title{
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #1A1E26;
+  padding-bottom: 2rem;
+}
+
+.search{
+  width: 100%;
+  height: 3.6rem;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  margin-top: 1rem;
+  border-radius: 0.4rem px;
+  padding-left: 4.4rem;
+  color:#FFFFFF;
+}
+
+.searchBar{
+  display: flex;
+  padding-top: 2rem;
+}
+
+.searchButton{
+  position: absolute;
+  margin-top:2rem;
+  margin-left:1rem;
+  pointer-events: none;
+}
+
+.data{
+  width: 100%;
+  height:17rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.confirm{
+  width: 37rem;
+  height: 4.2rem;
+  background: #0500FF;
+  border-radius: 4px;
+  border:none;
+  color:#FFFFFF;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  cursor: pointer;
+}
+
+.cancel{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height:4rem;
+  padding-top:2rem;
+  cursor: pointer;
+}
+
+.cancelButton{
+  border:none;
+  background: none;
+  color:rgba(255, 255, 255, 0.7);
+  font-size: 16px;
+  line-height: 22px;
+  align-self: center;
+  justify-self: center;
+}
+
+.close{
+  cursor: pointer;
+}

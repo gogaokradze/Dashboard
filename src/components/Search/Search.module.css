@@ -1,0 +1,305 @@
+.center{
+  max-width: 111rem;
+  margin: auto;
+  padding-bottom: 4rem;
+  border-bottom: 1px solid #111826;
+}
+
+.search{
+  width: 111rem;
+  height: 3.6rem;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  margin-top: 1rem;
+  border-radius: 0.4rem px;
+  padding-left: 4.4rem;
+  color:#FFFFFF;
+}
+
+.searchBar{
+  display: flex;
+}
+
+.searchButton{
+  position: absolute;
+  margin-top:2rem;
+  margin-left:1rem;
+  pointer-events: none;
+}
+
+.filters{
+  position: absolute;
+  display: flex;
+  align-items: center;
+  margin-left:100.5rem;
+  margin-top:1.8rem;
+  border-left: 1px solid #181C25;
+  padding-left: 1rem;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+.filters p{
+  padding-right: 0.5rem;
+}
+
+.filterBox{
+  position: absolute;
+  margin-top:5.2rem;
+  margin-left: 95rem;
+  width: 16rem;
+  height: 19.5rem;
+  overflow-y: auto;
+  scrollbar-color: #0500FF rgba(255, 255, 255, 0.04);
+  background: #0A0F18;
+  border: 1px solid #161B24;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+  border-radius: 0.4rem;
+  font-weight: 400;
+  font-size: 1.3rem;
+  line-height: 1.8rem;
+  z-index: 1;
+}
+
+.FilterName{
+  display: flex;
+  align-items: center;
+  padding-left: 1rem;
+  margin-left:1rem;
+  margin-right: 1rem;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  cursor: pointer;
+}
+
+.FilterName:hover{
+  background-color: rgba(255, 255, 255, 0.04);
+  border-radius: 0.5rem;
+
+}
+
+.allFilters{
+  color:#0500FF;
+  padding-bottom:1.5rem;
+  padding-top:2rem;
+  padding-left:2rem;
+  cursor: pointer;
+}
+
+.code{
+  display: flex;
+  align-items: center;
+  margin-top: 4.6rem;
+  margin-bottom: 2.2rem;
+  font-weight: 400;
+  font-size: 1.3rem;
+  line-height: 1.8rem;
+  opacity: 0.7;
+}
+
+.copyLogo{
+  margin-left:1rem;
+  margin-right: 2rem;
+  cursor: pointer;
+}
+
+.QRcode{
+  cursor: pointer;
+}
+
+.resources{
+  display: flex;
+  justify-content: space-between;
+}
+
+.box{
+  width: 54rem;
+  height: 19.4rem;
+  padding:2rem;
+  border: 1px solid #111826;
+}
+
+.row{
+  width: 36rem;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.row1{
+  width: 50rem;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.row p{
+   color:#0500FF;
+}
+
+.row1 p{
+  color:#0500FF;
+}
+
+.progressBar{
+  width: 36rem;
+  height: 0.6rem;
+  background: rgba(255, 255, 255, 0.06);
+  border-radius: 3px; 
+}
+
+.progressBar1{
+  width: 50rem;
+  height: 0.6rem;
+  background: rgba(255, 255, 255, 0.06);
+  border-radius: 3px; 
+  margin-top: 0.2rem;
+
+}
+
+.progress{
+  width: 13rem;
+  height: 0.6rem;
+  background-color: #0500FF;
+  border-radius: 0.3rem;
+}
+
+.progress1{
+  width: 50rem;
+  height: 0.6rem;
+  background-color: #0500FF;
+  border-radius: 0.3rem;
+}
+
+.progress2{
+  width: 25rem;
+  height: 0.6rem;
+  background-color: #0500FF;
+  border-radius: 0.3rem;
+}
+
+.line{
+  display: flex;
+  margin-top: 3rem;
+}
+.line1{
+  display: flex;
+  margin-top: 2.5rem;
+}
+
+.button{
+  border: 1px solid #0500FF;
+  border-radius: 4px;
+  background: none;
+  color:white;
+  margin-left: 2.5rem;
+  cursor: pointer;
+  width: 10rem;
+  height: 3.2rem;
+}
+
+.info{
+  display: flex;
+  align-items: center;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+.rewards{
+  font-weight: 400;
+  font-size: 1.3rem;
+  line-height: 1.8rem;
+  color: #B2B5BA;
+  }
+.rewards span{
+  color:#ff7152;
+}
+
+.rewards .zero{
+  color:#FFFFFF;
+}
+
+.buttons{
+  width: 50rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.button1{
+  border: 1px solid #0500FF;
+  border-radius: 4px;
+  background: none;
+  color:white;
+  cursor: pointer;
+  width: 15.6rem;
+  height: 3.2rem;
+  margin-top: 2.1rem;
+}
+
+.icon{
+  cursor: pointer;
+}
+.row{
+  position: relative;
+}
+
+.tooltip{
+  position: absolute;
+  width: 25.5rem;
+  height: 7.5rem;
+  padding:1rem;
+  background: #0A0F18;
+  border: 1px solid #161B24;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+  border-radius: 4px;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 1s ease;
+  top:-8rem;
+  right: -6.7rem;
+}
+
+.tooltip::before{
+  content: "";
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  background: #0A0F18;
+  border-bottom: 1px solid #161B24;
+  border-right: 1px solid #161B24;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+  border-radius: 4px;
+  bottom: -8px;
+  left:50%;
+  transform: translateX(-50%) rotate(45deg);
+}
+
+.info:hover .tooltip{
+  top:10%;
+  visibility: visible;
+  opacity: 1;
+  cursor: pointer;
+  top:-8rem;
+}
+
+.opacity{
+  opacity: 0.7;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box{
+  background:
+    linear-gradient(to  right, #7060CE ,rgba(112, 97, 207, 0), transparent 2px) 0 0,
+    linear-gradient(to right, #7060CE ,rgba(112, 97, 207, 0), transparent 2px) 0 100%,
+    linear-gradient(to left, #7060CE ,rgba(112, 97, 207, 0),  transparent 2px) 100% 0,
+    linear-gradient(to left, #7060CE ,rgba(112, 97, 207, 0),  transparent 2px) 100% 100%,
+    linear-gradient(to bottom, #7060CE ,rgba(112, 97, 207, 0),  transparent 2px) 0 0,
+    linear-gradient(to bottom, #7060CE ,rgba(112, 97, 207, 0),  transparent 2px) 100% 0,
+    linear-gradient(to top, #7060CE ,rgba(112, 97, 207, 0),  transparent 2px) 0 100%,
+    linear-gradient(to top, #7060CE ,rgba(112, 97, 207, 0),  transparent 2px) 100% 100%;
+    background-repeat: no-repeat;
+  background-size: 50px 50px;
+  }

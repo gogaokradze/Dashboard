@@ -1,0 +1,56 @@
+.header{
+  max-width: 134rem;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  height: 10.5rem;
+}
+
+.navbar{
+  display: flex;
+  justify-content: space-around;
+  margin-left: 6.26rem;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 2.2rem;
+  width: 35.5rem;
+}
+
+.navbar p {
+  cursor: pointer;
+}
+
+.button{
+  border: none;
+  background: #FF7152;
+  height: 4.2rem;
+  max-width: 17rem;
+  color:white;
+  padding: 1rem 2.25rem;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 2.2rem;
+  text-transform: capitalize;
+  border-radius: 6%;
+  cursor: pointer;
+}
+
+.bar{
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+
+.miniLogo{
+  display: flex;
+  align-items: center;
+  margin-right: 3rem;
+}
+
+.settings{
+    width: 10rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 3rem;
+}

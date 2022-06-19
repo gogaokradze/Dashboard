@@ -1,0 +1,81 @@
+.background{
+  width: 100%;
+  min-height:100% ;
+  position:fixed;
+  top:0px;
+  right: 0px;
+  left:0px;
+  bottom:0px;
+  z-index: 100;
+  background: rgba(0, 5, 15, 0.9);
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modalBox{
+   width: 41rem;
+   height: 41rem;
+   background: #0A0F18;
+  border: 1px solid #161B24;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+  border-radius: 4px;
+  padding: 2rem;
+}
+
+.title{
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #1A1E26;
+  padding-bottom: 2rem;
+}
+
+.QRimg{
+  width: 100%;
+  height: 23rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.QRimg div{
+  padding: 2rem;
+  background-color: rgba(255, 255, 255, 0.04);
+  border-radius: 0.4rem;
+}
+
+.code{
+  width: 100%;
+  height: 4.2rem;
+  display: flex;
+  align-items: center;
+  font-size: 13px;
+  line-height: 18px;
+  background: #05080D;
+  border: 1px solid #0A0F18;
+  border-radius: 4px;
+  padding-left: 1.6rem;
+}
+
+.name{
+  font-size: 13px;
+  line-height: 18px;
+  color:rgba(255, 255, 255, 0.7);
+  margin-bottom:0.5rem;
+}
+.copy{
+  position: absolute;
+  margin-left:31rem;
+  cursor: pointer;
+}
+
+.save{
+  font-size: 13px;
+  line-height: 20px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #0500FF;
+  margin-top: 1rem;
+  cursor: pointer;
+}
